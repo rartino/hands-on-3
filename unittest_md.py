@@ -4,6 +4,7 @@ from md import calcenergy
 class MdTests(unittest.TestCase):
 
     def test_calcenergy(self):
+        # Fixed this
         self.assertTrue(True)
 
 if __name__ == '__main__':
