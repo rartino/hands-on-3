@@ -4,7 +4,7 @@ from md import calcenergy
 class MdTests(unittest.TestCase):
 
     def test_calcenergy(self):
-        self.assertTrue(True)
+        self.assertTrue(False)
 
 if __name__ == '__main__':
     tests = [unittest.TestLoader().loadTestsFromTestCase(MdTests)]
